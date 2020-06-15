@@ -1,0 +1,26 @@
+{
+  "name": "dubbo-composer-api-gen",
+  "version": "1.0.0",
+  "description": "tools for dubbo composer , java api to javascript package.",
+  "main": "index.js",
+  "bin": {
+    "dubbo-composer-gen-api": "./cli.js"
+  },
+  "keywords": [
+    "dubbo",
+    "javaTojs",
+    "dubbo composer"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zzhgithub",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "execa": "^4.0.2",
+    "fs-extra": "^9.0.1",
+    "klaw": "^2.1.1",
+    "prettier": "^2.0.5"
+  }
+}
