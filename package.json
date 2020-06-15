@@ -11,6 +11,10 @@
     "javaTojs",
     "dubbo composer"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzhgithub/dubbo-composer-api-gen.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
